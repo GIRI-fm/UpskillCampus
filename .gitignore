@@ -1,0 +1,22 @@
+# Arduino / embedded build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.tmp
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local secrets/configuration (do not commit credentials)
+secrets.h
+credentials.h
+.env
